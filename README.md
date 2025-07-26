@@ -2,6 +2,8 @@
 
 A responsive, animated salary benchmarking application frontend built with Next.js, React, and TypeScript.
 
+[Backend](https://github.com/eminsonlu/salystic)
+
 ## 🚀 Features
 
 - **Dark Theme Support**: Automatic light/dark mode with CSS `prefers-color-scheme` and Tailwind.
