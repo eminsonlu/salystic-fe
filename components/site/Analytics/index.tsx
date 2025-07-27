@@ -254,14 +254,13 @@ export default function AnalyticsSection({ onFilterChange }: AnalyticsProps) {
             className="text-4xl font-bold mb-4"
             style={{ color: PALETTE.text.primary }}
           >
-            Salary Analytics & Market Insights
+            Salary Analytics
           </h1>
           <p
             className="text-lg max-w-3xl mx-auto"
             style={{ color: PALETTE.text.secondary }}
           >
-            Comprehensive salary data analysis across industries, roles, and
-            career levels for data-driven professional decisions.
+            Thank you <a href='https://github.com/oncekiyazilimci/2025-yazilim-sektoru-maaslari' target='_blank' className='text-blue-600 hover:underline'>ÖncekiYazılımcı</a> for sharing this valuable data!
           </p>
         </div>
 

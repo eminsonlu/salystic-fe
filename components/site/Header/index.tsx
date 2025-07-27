@@ -19,7 +19,7 @@ export default function Header() {
         console.error('Failed to fetch user profile:', error);
         setIsAuthenticated(false);
         setUserProfile(null);
-      } else {
+      } else if (user) {
         setIsAuthenticated(true);
         setUserProfile(user);
       }
@@ -34,8 +34,7 @@ export default function Header() {
 
   const handleLogin = () => {
     setIsLoading(true);
-    const backendUrl =
-      process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080';
+    const backendUrl = process.env.NEXT_PUBLIC_API_URL;
     window.location.href = `${backendUrl}/auth/linkedin`;
   };
 
