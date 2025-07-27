@@ -260,7 +260,7 @@ export default function AnalyticsSection({ onFilterChange }: AnalyticsProps) {
             className="text-lg max-w-3xl mx-auto"
             style={{ color: PALETTE.text.secondary }}
           >
-            Thank you <a href='https://github.com/oncekiyazilimci/2025-yazilim-sektoru-maaslari' target='_blank' className='text-blue-600 hover:underline'>ÖncekiYazılımcı</a> for sharing this valuable data!
+            Share your salary data securely via LinkedIn OAuth with high privacy protection - only anonymized IDs are stored. Thank you <a href='https://github.com/oncekiyazilimci/2025-yazilim-sektoru-maaslari' target='_blank' className='text-blue-600 hover:underline'>ÖncekiYazılımcı</a> for sharing this valuable data!
           </p>
         </div>
 
