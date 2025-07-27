@@ -78,7 +78,7 @@ export default function PanelLayout({ children }: PanelLayoutProps) {
                     href={item.href}
                     onClick={() => setSidebarOpen(false)}
                     className={cn(
-                      "sidebar-item flex items-center text-sm font-medium",
+                      "flex items-center text-sm font-medium px-6 py-4 rounded-lg",
                       isActive ? "bg-white" : "text-slate-300 hover:text-white"
                     )}
                   >

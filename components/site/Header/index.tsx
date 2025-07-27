@@ -74,11 +74,6 @@ export default function Header() {
           <div className="flex items-center space-x-4">
             {isAuthenticated ? (
               <>
-                {userProfile && (
-                  <div className="flex items-center space-x-3">
-                    <span className="text-gray-700 text-sm">Welcome back!</span>
-                  </div>
-                )}
                 <Link
                   href="/panel"
                   className="text-gray-600 hover:text-gray-900"
@@ -96,7 +91,7 @@ export default function Header() {
               <button
                 onClick={handleLogin}
                 disabled={isLoading}
-                className="h-10 aspect-[430/80] relative cursor-pointer group"
+                className="lg:h-10 h-6 aspect-[430/80] relative cursor-pointer group"
               >
                 <Image
                   loader={({ src }) => src}
