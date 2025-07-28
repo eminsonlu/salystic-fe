@@ -65,6 +65,7 @@ export const salaryService = {
       if (data.currency !== undefined) requestData.currency = data.currency;
       if (data.salary_min !== undefined) requestData.salary_min = data.salary_min;
       if (data.salary_max !== undefined) requestData.salary_max = data.salary_max;
+      if (data.salary_range !== undefined) requestData.salary_range = data.salary_range;
       if (data.raise_period !== undefined) requestData.raise_period = data.raise_period;
       if (data.start_time !== undefined) requestData.start_time = data.start_time;
       if (data.end_time !== undefined) requestData.end_time = data.end_time;
