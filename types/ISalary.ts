@@ -53,6 +53,7 @@ export interface IUpdateSalaryEntry {
   currency?: string;
   salary_min?: number;
   salary_max?: number;
+  salary_range?: string;
   raise_period?: number;
   start_time?: string;
   end_time?: string;
