@@ -410,7 +410,7 @@ export default function SalaryEntryForm({
               <Input
                 type="number"
                 min="0"
-                step="1000"
+                step="1"
                 value={formData.salary_min || ''}
                 onChange={(e) => handleInputChange('salary_min', parseInt(e.target.value) || 0)}
                 placeholder="e.g., 75000"
@@ -427,7 +427,7 @@ export default function SalaryEntryForm({
               <Input
                 type="number"
                 min="0"
-                step="1000"
+                step="1"
                 value={formData.salary_max || ''}
                 onChange={(e) => handleInputChange('salary_max', parseInt(e.target.value) || undefined)}
                 placeholder="e.g., 95000"
